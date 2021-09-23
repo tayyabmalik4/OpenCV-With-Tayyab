@@ -31,6 +31,7 @@ thickness = 3
 lineType = cv2.LINE_4
 
 img_ract = cv2.rectangle(image,pt1,pt2,color,thickness,lineType)
+img_ract1 = cv2.rectangle(image,(500,70),(700,200),color,thickness,lineType)
 
 # ----if we want to putText in the upper side of ractangle than we use putText function
 # ----text on image
