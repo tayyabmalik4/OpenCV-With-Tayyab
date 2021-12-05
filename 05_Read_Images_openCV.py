@@ -9,7 +9,7 @@
 # --importing libraries
 import cv2
 
-path = r'images/IMG_4843.JPG'
+path = r'images/9.JPG'
 # img = cv2.imread(path)
 
 # ----if we want to show the image in RGB we use cv2.IMREAD_COLOR or 1
@@ -25,8 +25,8 @@ img = cv2.imread(path,cv2.IMREAD_COLOR)
 # img = cv2.imread(path,-1)
 
 # print(img)
-print(img.shape)
-img= cv2.resize(img,(1200,800))
+# print(img.shape)
+img= cv2.resize(img,(600,400))
 cv2.imshow('tayyab',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
